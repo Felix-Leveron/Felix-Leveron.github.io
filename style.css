@@ -1,8 +1,8 @@
 body {
-    background: #c1c1c1;
-    color: #323232;
+    background: #e17537;
+    color: #444444;
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family: Impact, sans-serif;
 }
 
 #all-contents {
@@ -11,17 +11,18 @@ body {
 }
 
 nav {
-    background: #323232
+    background: #9ae4ff;
     margin: 0 auto;
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    
 }
 
 h1 {
     display: flex;
-    align-items: cneter;
-    color: #323232;
+    align-items: center;
+    color: #444444;
     flex: 1;
     margin: 0;
 }
@@ -40,11 +41,11 @@ h1 {
 
 a {
     text-decoration: none;
-    color: @fff;
+    color: #444444;
 }
 
 main {
-    background: rgb(245, 238, 219)
+    background: #9ae4ff;
     display: flex;
     margin-top: 20px;
 }
