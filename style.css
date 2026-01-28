@@ -1,8 +1,10 @@
 body {
-    background: #e17537;
-    color: #444444;
-    padding: 10px;
-    font-family: Impact, sans-serif;
+  background-image: url("ttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOueiGE6N6U89qK-GT0IKi9IJLi4BYiZhNVb-19ECPyhRuSLH:https://www.belloflostsouls.net/wp-content/uploads/2025/01/return-to-cadia-header-2025.jpg&s"); 
+  background-repeat: no-repeat;              
+  background-size: cover;               
+  background-attachment: fixed;            
+  background-color: #ff9730;    
+  font-family: Impact;           
 }
 
 #all-contents {
@@ -11,7 +13,7 @@ body {
 }
 
 nav {
-    background: #9ae4ff;
+    background: #79d9fc;
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -45,7 +47,7 @@ a {
 }
 
 main {
-    background: #9ae4ff;
+    background: #79d9fc;
     display: flex;
     margin-top: 20px;
 }
@@ -71,4 +73,23 @@ main {
 
 h2, h3 {
     margin: 0px;
+}
+.content h1 {
+    color: #323232;
+}
+#portfolio {
+    list-style-type: none;
+}
+#portfolio li {
+    background: #79d9fc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#portfolio li:hover {
+    background: #eee;
+}
+#portfolio a {
+    text-decoration: none;
+    color: #323232;
 }
